@@ -1,0 +1,85 @@
+body {
+    background-image: url('https://www.denofgeek.com/wp-content/uploads/2020/05/Star-Destroyer.jpg?fit=1920%2C1080');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 95vh;
+    color: white;
+    user-select: none;
+  }
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    margin-left: 35%;
+}
+
+#personajes{
+    font-size: 25px;
+    width: 28%;
+    margin-bottom: 1vh;
+    list-style-type: none;
+    text-decoration: none;
+    background: rgb(193,194,98);
+    background: radial-gradient(circle, rgba(193,194,98,1) 3%, rgba(212,142,88,0.9780287114845938) 33%, rgba(195,189,100,1) 97%);
+    border-radius: 15px;
+    margin-left: 1vw;
+}
+
+
+.perso{
+    transition: color 0.5s ease,transform 0.5s ease-out;
+    margin-top: 1vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.perso:hover{
+    color: rgb(226, 18, 18);
+    transform: scale(1.1);
+}
+
+#botonAnterior{
+    margin-left: 2vw;
+}
+
+#botonAnterior, #botonSiguiente{
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: color 0.5s ease, transform 0.5s ease-out;
+    font-size: 25px;
+}
+
+#botonAnterior:hover, #botonSiguiente:hover {
+    cursor: pointer;
+    color: brown;
+    transform: scale(1.05);
+  }
+
+#p{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;;
+}
+
+#izq, #data{
+    width: 50%;
+    font-size: 25px;
+}
+
+
+#data{
+    font-size: 25px;
+    margin-top: 6vh;
+
+}
+
+#texti{
+    text-decoration: underline;
+}
