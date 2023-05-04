@@ -27,7 +27,7 @@ function overweightNames(people){
     .reduce((n1, n2) => n1 + ", " + n2);
 }
 
-// console.log(overweightNames(JSON.parse(jsonStr)));
+console.log(overweightNames(JSON.parse(jsonStr)));
 
 var people = JSON.parse(jsonStr);
 
